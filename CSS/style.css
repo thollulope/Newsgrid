@@ -5,7 +5,7 @@
   --secondary-color: #f99500;
   --light-color:#f3f3f3;
   --dark-color: #333;
-  --max-width: 1100px;
+  --max-width: 1400px;
 }
 .category{
  --sports-color: #f99500;
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6{
   color: #fff;
   width: fit-content;
   border: none;
-  padding: 0.6rem 1.6rem;
+  padding: 1rem 1rem;
   background: var(--dark-color); 
 }
 .card {
@@ -216,9 +216,10 @@ opacity: 0.8;
 }
 
 #navbar-main ul li{
-  padding: 2rem 1rem;
-  font-size: 1.5rem;
+  padding: 8px 6px ;
+  font-size: 1.9rem;
   font-weight: bold;
+  margin-right: 1.4rem;
 }
 
 #navbar-main ul li a.current{
@@ -228,8 +229,7 @@ opacity: 0.8;
 }
 
 #navbar-main ul li a:hover{
-  background: var(--light-color);
-  color: var(--dark-color);
+  text-decoration: underline;
 
 }
 
